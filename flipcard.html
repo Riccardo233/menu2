@@ -1,0 +1,139 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: red;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+body {
+  font-family:cursive;
+
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 340px;
+  perspective: 1000px;
+
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-image: url(spsp.jpg);
+  color: white;
+  transform: rotateY(180deg)
+  ;
+}
+.button {
+  background-image: url(spsp.jpg);
+  border: none;
+  color: white;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+</head>
+<body>
+
+
+ 
+ 
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="gooli" alt="goli" style="width:300px;height:340px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Riccardo Golisano</h1> 
+      <p>Nichelino</p> 
+      <p>16 anni</p>
+      <p>classe 3BINFO</p>
+      <p>istituto jcmaxwell</p>
+      <p></p>
+      <div class="button button1 button2"><a href="https://www.twitch.tv/ "><b>
+TWITCH </b></div><br>
+ 
+<div class="button button1 button2"><a href="https://riccardogolisano.altervista.org"><b>Guarda il mio blog</b>
+</div>
+    </div>
+  </div>
+
+
+</body>
+</html>
