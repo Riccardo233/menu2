@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>esercizio colori
+    </title>
+</head>
+<style>
+    div{
+        height:250px;
+        width:250px;
+        border: 1px solid black;
+    }
+</style>
+<script>
+    function col() {
+        setInterval(function () {
+            let r=Math.round(Math.random()*256);
+        let g=Math.round(Math.random()*256);
+        let b=Math.round(Math.random()*256);
+            document.getElementById('zio').style.backgroundColor = "rgb(" + r + ',' + g + ',' + b + ")";
+        }, 500);
+    }
+</script>
+ 
+<body onload="col()">
+<div id="zio">
+ 
+</div>
+</body>
+ 
+</html>
+
